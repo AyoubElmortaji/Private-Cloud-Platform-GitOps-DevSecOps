@@ -2,6 +2,8 @@
 
 > A private cloud built from scratch on **OpenStack**, running a **Kubernetes (k3s)** cluster deployed through **GitOps (ArgoCD)**, with security enforced at every stage: **before** deployment (Gitleaks, Trivy, OPA), **at** deployment (Git as the single source of truth) and **after** deployment (Falco runtime detection), all monitored with **Prometheus and Grafana**.
 
+
+
 ![OpenStack](https://img.shields.io/badge/IaaS-OpenStack-ED1944?logo=openstack&logoColor=white)
 ![k3s](https://img.shields.io/badge/Kubernetes-k3s-FFC61C?logo=k3s&logoColor=black)
 ![ArgoCD](https://img.shields.io/badge/GitOps-ArgoCD-EF7B4D?logo=argo&logoColor=white)
